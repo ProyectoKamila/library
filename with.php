@@ -1,5 +1,5 @@
 <?php 
-
+if(YITH_WCWL_UI){
 class MY_YITH extends YITH_WCWL_UI{
 
     public static function add_to_wishlist_button( $url, $product_type, $exists ) {
@@ -66,4 +66,5 @@ class MY_YITH extends YITH_WCWL_UI{
 
         return $cartlink;
     }
+}
 }
