@@ -18,7 +18,13 @@ include('debug.php');
 include('imgurl.php');
 // funcion para el boton de withlist y add_to_cart
 include('with.php');
+
+// funcion para el boton de mapa
+include('acf_map.php');
 //
 include('pk_get_the_category.php');
 //Id de la categoria desde el id ejemplo pk_get_cat_ID('destacado','product_cat');
 include('pk_get_cat_ID.php');
+if ( function_exists( 'add_theme_support' ) ) {
+  add_theme_support( 'post-thumbnails' );
+}
