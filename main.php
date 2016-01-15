@@ -17,10 +17,12 @@ include('debug.php');
 //funcion para extraer la url del thumbnail
 include('imgurl.php');
 // funcion para el boton de withlist y add_to_cart
-include('with.php');
-
+//include('with.php');
+include('portada.php');
 // funcion para el boton de mapa
 include('acf_map.php');
+// funcion para el boton de mapa en optiones
+include('acf_map_options.php');
 //
 include('pk_get_the_category.php');
 //Id de la categoria desde el id ejemplo pk_get_cat_ID('destacado','product_cat');

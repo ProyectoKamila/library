@@ -1,8 +1,8 @@
 <?php
 
-    function googlemap($name){
+    function googlemap_options($name){
     	
-    	$location = get_field($name);
+    	$location = get_field($name, 'options');
             
             if( !empty($location) ):
             ?>
